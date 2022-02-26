@@ -1,0 +1,117 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+html,body
+{
+    height: 94%;
+    width: 98%;
+}
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+.inst
+{
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  border-style: solid;
+  border-width: 10px;
+  left: 0;
+  right: 0;
+  top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+  background-color: #2f557e;
+}
+.play
+{
+  width: 200px;
+  padding-bottom: 20px;
+}
+.start
+{
+  width: 230px;
+}
+
+.para
+{
+  font-size: 30px;
+  text-align: left;
+  margin-left: 19px;
+  font-weight: bolder;
+}
+.no
+{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 355px;
+  left: 630px;
+}
+.hide
+{
+  display: none;
+}
+.para,.h1,.list
+{
+  color: #FEF2BF;
+}
+.h1
+{
+  font-size: 60px;
+  font-weight: bolder;
+}
+.list
+{
+  text-align: left;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}

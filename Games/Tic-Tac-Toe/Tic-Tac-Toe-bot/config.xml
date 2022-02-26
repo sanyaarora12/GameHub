@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.abhinav.TicTacToeBot"
+    versionCode = "10"
+    version     = "1.0.0" >
+
+<!-- versionCode is optional and Android only -->
+
+  <name>Tic Tac Toe Bot</name>
+
+  <description>
+      Simple Tic Tac Toe Game with Bot
+  </description>
+
+  <author>
+    Abhinav Mangla
+  </author>
+
+  <platform name="android">
+  <icon src="./assets/imgs/X.png" width="180" height="180" />
+  </platform>
+
+
+</widget>
